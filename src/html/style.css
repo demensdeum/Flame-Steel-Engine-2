@@ -1,0 +1,36 @@
+* {
+    -webkit-touch-callout: none;
+}
+
+body {
+    -webkit-touch-callout: none;
+    background-image: url('./assets/com.demensdeum.main.background.texture.jpg');
+    background-color: black;    
+    margin: 0;
+    overflow: hidden;
+}
+
+canvas {
+    -webkit-touch-callout: none;
+    position: absolute;
+    background-color: transparent;
+    display: block;
+    z-index: 1;
+}
+
+.companyLogoContainer {
+    -webkit-touch-callout: none;
+    display: none;    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #222222;
+    z-index: 5;
+}
+
+.companyLogo {
+    -webkit-touch-callout: none;
+    width: 100%;
+    margin: 0;  
+}
+

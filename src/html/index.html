@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>Flame Steel Engine 2 Project</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="importmap">
+  {
+    "imports": {
+      "dat.gui": "./build/dat.gui/dat.gui.module.js",
+      "three": "./build/three/three.module.js",
+      "three/examples/": "./build/three/examples/",
+      "dat.gui.module.js.map": "./build/dat.gui/dat.gui.module.js.map"
+    }
+  }
+</script>
+</head>
+<body>
+  <div class="companyLogoContainer">
+    <table style="width: 100%; height: 100%;">
+    <tr>
+      <td style="width: 5%;"></td>
+      <td>
+        <img class="companyLogo" onload="document.global_gameplay_companyLogoLoaded = true" onmousedown="if (event.preventDefault) event.preventDefault()" src="./assets/com.demensdeum.company.logo.texture.svg"/>
+      </td>
+      <td style="width: 5%;"></td>
+    </tr>
+    </table>
+  </div>
+  <script type="module" src="./build/main.js"></script>
+  <script src="build/eruda/eruda.js"></script>
+</body>
